@@ -32,6 +32,7 @@ module.exports = (db, updateAppointment) => {
       return;
     }
 
+    
     const { student, interviewer } = request.body.interview;
 
     db.query(
